@@ -1,0 +1,173 @@
+* {
+font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+padding: 0;
+margin: 0;
+}
+
+/* Smooth hover transition for team buttons */
+.team-button {
+    transition: background-color 0.s, color 0.3s;
+}
+
+/* On hover, change the color to background: #2c002f; */
+.team-button:hover {
+   filter: brightness(0.5);
+}
+
+.season-stats {
+    display: flex;
+    font-size: 2.2em;
+    width: 100%;
+    letter-spacing: -0.06em;
+}
+.season-stat {
+    flex: 1;
+    text-align: center;
+}
+.season-stat-value {
+    font-size: 3.2em;
+    line-height: 0.6em;
+    font-weight: 700;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    user-select: none;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.season-stat-number {
+    /* margin-right: 0.2em; */
+}
+
+.season-stat-text {
+    font-size: 0.9em;
+    font-weight: 400;
+}
+/* season_stats.css */
+
+.ssp-1st {
+    color: #00ff00;
+}
+
+.ssp-2nd {
+    color: #48f98f;
+}
+
+.ssp-3rd {
+    color: #65f497;
+}
+
+.ssp-4th {
+    color: #7aef9f;
+}
+
+.ssp-5th {
+    color: #8ceaa7;
+}
+
+.ssp-6th {
+    color: #9be4af;
+}
+
+.ssp-7th {
+    color: #a9deb6;
+}
+
+.ssp-8th {
+    color: #b6d9bd;
+}
+
+.ssp-9th {
+    color: #c1d2c5;
+}
+
+.ssp-10th {
+    color: #cccccc;
+}
+
+.ssp-11th {
+    color: #cccccc;
+}
+
+.ssp-12th {
+    color: #d7beb9;
+}
+
+.ssp-13th {
+    color: #e0b0a6;
+}
+
+.ssp-14th {
+    color: #e7a293;
+}
+
+.ssp-15th {
+    color: #ed9380;
+}
+
+.ssp-16th {
+    color: #f1836e;
+}
+
+.ssp-17th {
+    color: #f4735c;
+}
+
+.ssp-18th {
+    color: #f6604b;
+}
+
+.ssp-19th {
+    color: #f84c39;
+}
+
+.ssp-20th {
+    color: #f83027;
+}
+
+.season-stats {
+    display: flex;
+    font-size: 2.2em; /* Adjust as needed */
+    width: 100%;
+    letter-spacing: -0.06em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.season-stat-value {
+    font-size: 3.2em; /* Adjust as needed */
+    line-height: 0.6em;
+    font-weight: 700;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    user-select: none;
+    display: flex;
+}
+
+.season-stat-position {
+    font-size: 0.3em;
+    line-height: 0;
+    vertical-align: super; /* Align to the top */
+    color: #48f98f;
+
+}
+
+.hidden {
+    color: transparent;
+}
+
+.season-stat {
+    flex: 1;
+    text-align: center; /* Center the content within each stat div */
+}
+
+.season-stat-text {
+    font-size: 0.5em; /* Adjust as needed */
+     margin-top: 1em; /*Add some space above the text */
+    display: block; /* Ensure text is on its own line */
+}
+

@@ -1,0 +1,7 @@
+dash==2.18.2
+duckdb==1.2.0
+numpy==1.23.1
+pandas==1.2.3
+plotly==5.15.0
+python-dotenv==1.0.1
+requests==2.28.1
