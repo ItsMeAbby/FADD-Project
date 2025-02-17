@@ -136,7 +136,6 @@ def update_all(n_clicks_list, current_content, button_ids):
         'fontSize': '2em'
     }
 
-    # Now, update button styles for all team buttons based on whether they are selected.
     new_button_styles = []
     for comp_id in button_ids:
         if comp_id['index'] == selected_team:

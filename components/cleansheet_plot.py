@@ -41,15 +41,12 @@ def get_team_clean_sheets(form_df, team: str, matchdays: list) -> list:
 
 def create_clean_sheets_figure(form_df, team: str) -> html.Div:
 
-    # Compute matchdays (labels). Here we use the played matchdays.
     matchdays = get_played_matchdays(form_df, team)
     
-    # Compute clean sheets (a list of 0 or 1 for each matchday)
     clean_sheets = get_team_clean_sheets(form_df, team, matchdays)
-    # Create the inverse (if clean sheet is 0, then goals conceded = 1, else 0)
     not_clean_sheets = [1 if cs == 0 else 0 for cs in clean_sheets]
     
-    # Create bar traces: one for clean sheets and one for goals conceded.
+
     trace_clean = go.Bar(
         name='Clean sheets',
         type='bar',
@@ -71,7 +68,7 @@ def create_clean_sheets_figure(form_df, team: str) -> html.Div:
         showlegend=False
     )
     
-    # A hidden line added so that the x-axis spans the proper length.
+
     hidden_line = go.Scatter(
         name='Hidden',
         mode='lines',
@@ -95,7 +92,7 @@ def create_clean_sheets_figure(form_df, team: str) -> html.Div:
         )
     else:
         baseline_shape = {}
-    # split score value and sum the away and home goals, a nd get the max value
+    # split scre value and sum the away and home goals, a nd get the max value
     # drop na values whre score is null
     form_df = form_df.dropna(subset=['score'])
     max_value=form_df['score'].str.split('-').apply(lambda x: sum(map(int, x))).max()
@@ -134,7 +131,6 @@ def create_clean_sheets_figure(form_df, team: str) -> html.Div:
         dragmode=False,
         showlegend=False
     )
-    
-    # Build the full figure.
+
     fig = go.Figure(data=[trace_clean, trace_conceded, hidden_line], layout=layout)
     return fig
