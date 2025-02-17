@@ -1,0 +1,162 @@
+[
+  {
+    "team":"Manchester United",
+    "date":"2025-04-05",
+    "opponent":"Manchester City",
+    "isHome":true,
+    "previousMatches":"[{\"date\": \"2024-12-15 16:30:00\", \"homeTeam\": \"Manchester City\", \"awayTeam\": \"Manchester United\", \"score\": \"1-2\"}, {\"date\": \"2024-03-03 15:30:00\", \"homeTeam\": \"Manchester City\", \"awayTeam\": \"Manchester United\", \"score\": \"3-1\"}, {\"date\": \"2023-10-29 15:30:00\", \"homeTeam\": \"Manchester United\", \"awayTeam\": \"Manchester City\", \"score\": \"0-3\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Fulham",
+    "date":"2025-04-05",
+    "opponent":"Liverpool",
+    "isHome":true,
+    "previousMatches":"[{\"date\": \"2024-12-14 15:00:00\", \"homeTeam\": \"Liverpool\", \"awayTeam\": \"Fulham\", \"score\": \"2-2\"}, {\"date\": \"2024-04-21 15:30:00\", \"homeTeam\": \"Fulham\", \"awayTeam\": \"Liverpool\", \"score\": \"1-3\"}, {\"date\": \"2023-12-03 14:00:00\", \"homeTeam\": \"Liverpool\", \"awayTeam\": \"Fulham\", \"score\": \"4-3\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Ipswich Town",
+    "date":"2025-04-05",
+    "opponent":"Wolverhampton Wanderers",
+    "isHome":true,
+    "previousMatches":"[{\"date\": \"2024-12-14 15:00:00\", \"homeTeam\": \"Wolverhampton Wanderers\", \"awayTeam\": \"Ipswich Town\", \"score\": \"1-2\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Liverpool",
+    "date":"2025-04-05",
+    "opponent":"Fulham",
+    "isHome":false,
+    "previousMatches":"[{\"date\": \"2024-12-14 15:00:00\", \"homeTeam\": \"Liverpool\", \"awayTeam\": \"Fulham\", \"score\": \"2-2\"}, {\"date\": \"2024-04-21 15:30:00\", \"homeTeam\": \"Fulham\", \"awayTeam\": \"Liverpool\", \"score\": \"1-3\"}, {\"date\": \"2023-12-03 14:00:00\", \"homeTeam\": \"Liverpool\", \"awayTeam\": \"Fulham\", \"score\": \"4-3\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Arsenal",
+    "date":"2025-04-05",
+    "opponent":"Everton",
+    "isHome":false,
+    "previousMatches":"[{\"date\": \"2024-12-14 15:00:00\", \"homeTeam\": \"Arsenal\", \"awayTeam\": \"Everton\", \"score\": \"0-0\"}, {\"date\": \"2024-05-19 15:00:00\", \"homeTeam\": \"Arsenal\", \"awayTeam\": \"Everton\", \"score\": \"2-1\"}, {\"date\": \"2023-09-17 15:30:00\", \"homeTeam\": \"Everton\", \"awayTeam\": \"Arsenal\", \"score\": \"0-1\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Wolverhampton Wanderers",
+    "date":"2025-04-05",
+    "opponent":"Ipswich Town",
+    "isHome":false,
+    "previousMatches":"[{\"date\": \"2024-12-14 15:00:00\", \"homeTeam\": \"Wolverhampton Wanderers\", \"awayTeam\": \"Ipswich Town\", \"score\": \"1-2\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Everton",
+    "date":"2025-04-05",
+    "opponent":"Arsenal",
+    "isHome":true,
+    "previousMatches":"[{\"date\": \"2024-12-14 15:00:00\", \"homeTeam\": \"Arsenal\", \"awayTeam\": \"Everton\", \"score\": \"0-0\"}, {\"date\": \"2024-05-19 15:00:00\", \"homeTeam\": \"Arsenal\", \"awayTeam\": \"Everton\", \"score\": \"2-1\"}, {\"date\": \"2023-09-17 15:30:00\", \"homeTeam\": \"Everton\", \"awayTeam\": \"Arsenal\", \"score\": \"0-1\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Brighton and Hove Albion",
+    "date":"2025-04-05",
+    "opponent":"Crystal Palace",
+    "isHome":false,
+    "previousMatches":"[{\"date\": \"2024-12-15 14:00:00\", \"homeTeam\": \"Brighton and Hove Albion\", \"awayTeam\": \"Crystal Palace\", \"score\": \"1-3\"}, {\"date\": \"2024-02-03 15:00:00\", \"homeTeam\": \"Brighton and Hove Albion\", \"awayTeam\": \"Crystal Palace\", \"score\": \"4-1\"}, {\"date\": \"2023-12-21 20:00:00\", \"homeTeam\": \"Crystal Palace\", \"awayTeam\": \"Brighton and Hove Albion\", \"score\": \"1-1\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Newcastle United",
+    "date":"2025-04-05",
+    "opponent":"Leicester City",
+    "isHome":false,
+    "previousMatches":"[{\"date\": \"2024-12-14 15:00:00\", \"homeTeam\": \"Newcastle United\", \"awayTeam\": \"Leicester City\", \"score\": \"4-0\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Southampton",
+    "date":"2025-04-05",
+    "opponent":"Tottenham Hotspur",
+    "isHome":false,
+    "previousMatches":"[{\"date\": \"2024-12-15 19:00:00\", \"homeTeam\": \"Southampton\", \"awayTeam\": \"Tottenham Hotspur\", \"score\": \"0-5\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Nottingham Forest",
+    "date":"2025-04-05",
+    "opponent":"Aston Villa",
+    "isHome":false,
+    "previousMatches":"[{\"date\": \"2024-12-14 17:30:00\", \"homeTeam\": \"Nottingham Forest\", \"awayTeam\": \"Aston Villa\", \"score\": \"2-1\"}, {\"date\": \"2024-02-24 15:00:00\", \"homeTeam\": \"Aston Villa\", \"awayTeam\": \"Nottingham Forest\", \"score\": \"4-2\"}, {\"date\": \"2023-11-05 14:00:00\", \"homeTeam\": \"Nottingham Forest\", \"awayTeam\": \"Aston Villa\", \"score\": \"2-0\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Bournemouth",
+    "date":"2025-04-05",
+    "opponent":"West Ham United",
+    "isHome":false,
+    "previousMatches":"[{\"date\": \"2024-12-16 20:00:00\", \"homeTeam\": \"Bournemouth\", \"awayTeam\": \"West Ham United\", \"score\": \"1-1\"}, {\"date\": \"2024-02-01 19:30:00\", \"homeTeam\": \"West Ham United\", \"awayTeam\": \"Bournemouth\", \"score\": \"1-1\"}, {\"date\": \"2023-08-12 14:00:00\", \"homeTeam\": \"Bournemouth\", \"awayTeam\": \"West Ham United\", \"score\": \"1-1\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"West Ham United",
+    "date":"2025-04-05",
+    "opponent":"Bournemouth",
+    "isHome":true,
+    "previousMatches":"[{\"date\": \"2024-12-16 20:00:00\", \"homeTeam\": \"Bournemouth\", \"awayTeam\": \"West Ham United\", \"score\": \"1-1\"}, {\"date\": \"2024-02-01 19:30:00\", \"homeTeam\": \"West Ham United\", \"awayTeam\": \"Bournemouth\", \"score\": \"1-1\"}, {\"date\": \"2023-08-12 14:00:00\", \"homeTeam\": \"Bournemouth\", \"awayTeam\": \"West Ham United\", \"score\": \"1-1\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Aston Villa",
+    "date":"2025-04-05",
+    "opponent":"Nottingham Forest",
+    "isHome":true,
+    "previousMatches":"[{\"date\": \"2024-12-14 17:30:00\", \"homeTeam\": \"Nottingham Forest\", \"awayTeam\": \"Aston Villa\", \"score\": \"2-1\"}, {\"date\": \"2024-02-24 15:00:00\", \"homeTeam\": \"Aston Villa\", \"awayTeam\": \"Nottingham Forest\", \"score\": \"4-2\"}, {\"date\": \"2023-11-05 14:00:00\", \"homeTeam\": \"Nottingham Forest\", \"awayTeam\": \"Aston Villa\", \"score\": \"2-0\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Brentford",
+    "date":"2025-04-05",
+    "opponent":"Chelsea",
+    "isHome":true,
+    "previousMatches":"[{\"date\": \"2024-12-15 19:00:00\", \"homeTeam\": \"Chelsea\", \"awayTeam\": \"Brentford\", \"score\": \"2-1\"}, {\"date\": \"2024-03-02 15:00:00\", \"homeTeam\": \"Brentford\", \"awayTeam\": \"Chelsea\", \"score\": \"2-2\"}, {\"date\": \"2023-10-28 11:30:00\", \"homeTeam\": \"Chelsea\", \"awayTeam\": \"Brentford\", \"score\": \"0-2\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Crystal Palace",
+    "date":"2025-04-05",
+    "opponent":"Brighton and Hove Albion",
+    "isHome":true,
+    "previousMatches":"[{\"date\": \"2024-12-15 14:00:00\", \"homeTeam\": \"Brighton and Hove Albion\", \"awayTeam\": \"Crystal Palace\", \"score\": \"1-3\"}, {\"date\": \"2024-02-03 15:00:00\", \"homeTeam\": \"Brighton and Hove Albion\", \"awayTeam\": \"Crystal Palace\", \"score\": \"4-1\"}, {\"date\": \"2023-12-21 20:00:00\", \"homeTeam\": \"Crystal Palace\", \"awayTeam\": \"Brighton and Hove Albion\", \"score\": \"1-1\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Chelsea",
+    "date":"2025-04-05",
+    "opponent":"Brentford",
+    "isHome":false,
+    "previousMatches":"[{\"date\": \"2024-12-15 19:00:00\", \"homeTeam\": \"Chelsea\", \"awayTeam\": \"Brentford\", \"score\": \"2-1\"}, {\"date\": \"2024-03-02 15:00:00\", \"homeTeam\": \"Brentford\", \"awayTeam\": \"Chelsea\", \"score\": \"2-2\"}, {\"date\": \"2023-10-28 11:30:00\", \"homeTeam\": \"Chelsea\", \"awayTeam\": \"Brentford\", \"score\": \"0-2\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Manchester City",
+    "date":"2025-04-05",
+    "opponent":"Manchester United",
+    "isHome":false,
+    "previousMatches":"[{\"date\": \"2024-12-15 16:30:00\", \"homeTeam\": \"Manchester City\", \"awayTeam\": \"Manchester United\", \"score\": \"1-2\"}, {\"date\": \"2024-03-03 15:30:00\", \"homeTeam\": \"Manchester City\", \"awayTeam\": \"Manchester United\", \"score\": \"3-1\"}, {\"date\": \"2023-10-29 15:30:00\", \"homeTeam\": \"Manchester United\", \"awayTeam\": \"Manchester City\", \"score\": \"0-3\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Leicester City",
+    "date":"2025-04-05",
+    "opponent":"Newcastle United",
+    "isHome":true,
+    "previousMatches":"[{\"date\": \"2024-12-14 15:00:00\", \"homeTeam\": \"Newcastle United\", \"awayTeam\": \"Leicester City\", \"score\": \"4-0\"}]",
+    "league":"PL"
+  },
+  {
+    "team":"Tottenham Hotspur",
+    "date":"2025-04-05",
+    "opponent":"Southampton",
+    "isHome":true,
+    "previousMatches":"[{\"date\": \"2024-12-15 19:00:00\", \"homeTeam\": \"Southampton\", \"awayTeam\": \"Tottenham Hotspur\", \"score\": \"0-5\"}]",
+    "league":"PL"
+  }
+]

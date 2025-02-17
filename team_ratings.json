@@ -1,0 +1,142 @@
+[
+  {
+    "team":"Liverpool",
+    "current":1.0,
+    "prevSeason1":0.8074074074,
+    "total":0.944973545,
+    "league":"PL"
+  },
+  {
+    "team":"Arsenal",
+    "current":0.888,
+    "prevSeason1":0.9851851852,
+    "total":0.9157671958,
+    "league":"PL"
+  },
+  {
+    "team":"Manchester City",
+    "current":0.72,
+    "prevSeason1":1.0,
+    "total":0.8,
+    "league":"PL"
+  },
+  {
+    "team":"Chelsea",
+    "current":0.68,
+    "prevSeason1":0.437037037,
+    "total":0.6105820106,
+    "league":"PL"
+  },
+  {
+    "team":"Newcastle United",
+    "current":0.632,
+    "prevSeason1":0.4814814815,
+    "total":0.588994709,
+    "league":"PL"
+  },
+  {
+    "team":"Tottenham Hotspur",
+    "current":0.568,
+    "prevSeason1":0.4518518519,
+    "total":0.5348148148,
+    "league":"PL"
+  },
+  {
+    "team":"Bournemouth",
+    "current":0.696,
+    "prevSeason1":0.1259259259,
+    "total":0.5331216931,
+    "league":"PL"
+  },
+  {
+    "team":"Aston Villa",
+    "current":0.512,
+    "prevSeason1":0.4814814815,
+    "total":0.5032804233,
+    "league":"PL"
+  },
+  {
+    "team":"Nottingham Forest",
+    "current":0.704,
+    "prevSeason1":0.0,
+    "total":0.5028571429,
+    "league":"PL"
+  },
+  {
+    "team":"Fulham",
+    "current":0.584,
+    "prevSeason1":0.1703703704,
+    "total":0.4658201058,
+    "league":"PL"
+  },
+  {
+    "team":"Brighton and Hove Albion",
+    "current":0.528,
+    "prevSeason1":0.1703703704,
+    "total":0.4258201058,
+    "league":"PL"
+  },
+  {
+    "team":"Brentford",
+    "current":0.512,
+    "prevSeason1":0.0888888889,
+    "total":0.3911111111,
+    "league":"PL"
+  },
+  {
+    "team":"Crystal Palace",
+    "current":0.448,
+    "prevSeason1":0.2222222222,
+    "total":0.3834920635,
+    "league":"PL"
+  },
+  {
+    "team":"Manchester United",
+    "current":0.408,
+    "prevSeason1":0.3037037037,
+    "total":0.3782010582,
+    "league":"PL"
+  },
+  {
+    "team":"Everton",
+    "current":0.44,
+    "prevSeason1":0.1407407407,
+    "total":0.3544973545,
+    "league":"PL"
+  },
+  {
+    "team":"West Ham United",
+    "current":0.304,
+    "prevSeason1":0.1481481481,
+    "total":0.2594708995,
+    "league":"PL"
+  },
+  {
+    "team":"Wolverhampton Wanderers",
+    "current":0.232,
+    "prevSeason1":0.0962962963,
+    "total":0.1932275132,
+    "league":"PL"
+  },
+  {
+    "team":"Ipswich Town",
+    "current":0.152,
+    "prevSeason1":0.0,
+    "total":0.1085714286,
+    "league":"PL"
+  },
+  {
+    "team":"Leicester City",
+    "current":0.128,
+    "prevSeason1":0.0,
+    "total":0.0914285714,
+    "league":"PL"
+  },
+  {
+    "team":"Southampton",
+    "current":0.0,
+    "prevSeason1":0.0,
+    "total":0.0,
+    "league":"PL"
+  }
+]

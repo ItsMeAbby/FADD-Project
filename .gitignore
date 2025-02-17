@@ -2,3 +2,5 @@
 FootBallDashBoard.zip
 soccer_data.db
 reports/*
+__pycache__/*
+*.pyc

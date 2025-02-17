@@ -168,4 +168,4 @@ def update_all(n_clicks_list, current_content, button_ids):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run()

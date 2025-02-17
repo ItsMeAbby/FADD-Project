@@ -139,6 +139,7 @@ margin: 0;
 
 .season-stat-value {
     font-size: 3.2em; /* Adjust as needed */
+    color: #280936;
     line-height: 0.6em;
     font-weight: 700;
     width: fit-content;
