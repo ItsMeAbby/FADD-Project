@@ -30,7 +30,6 @@ if cal_time_passed(league) > 5:
 
 standings_df, fixtures_df, form_df, team_ratings_df, home_advantages_df, upcoming_df = load_data(league, current_season)
 teams = standings_df['team'].unique()
-
 # Initialize the Dash app
 app = dash.Dash(__name__)
 app.title = "Dashboard"
@@ -48,7 +47,7 @@ def determine_team(n_clicks_list, teams):
     ctx = dash.callback_context
     if not ctx.triggered:
         return teams[0]
-    button_id = ctx.triggered[0]['prop_id'].split('.')[0]
+    button_id = ctx.triggered[0]['prop_id'].split('.n_clicks')[0]
     # It is assumed that the IDs were created from a dictionary so eval() helps retrieve the index key.
     return eval(button_id)['index']
 

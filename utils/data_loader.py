@@ -394,21 +394,17 @@ def compute_form(data: dict, team_ratings_df: DataFrame, season_year: int, num_p
     Builds a DataFrame containing the form data for each team over the current and past seasons, in long format.
     """
     form_records = []
-    all_teams = set()
 
     team_data = {}
     for i in range(num_past_seasons):
         season = season_year - i
         fixtures = data["matches"][season]
-
         # Collect all teams
         teams_in_season = set()
         for match in fixtures:
             home_team = adjust_team_name(match["homeTeam"]["name"])
             away_team = adjust_team_name(match["awayTeam"]["name"])
             teams_in_season.update([home_team, away_team])
-        all_teams.update(teams_in_season)
-
 
         # Sort matches by date
         fixtures = sorted(fixtures, key=lambda x: x["utcDate"])
@@ -436,6 +432,8 @@ def compute_form(data: dict, team_ratings_df: DataFrame, season_year: int, num_p
             # Collect cumulative points and goal difference up to this matchday
             standings = []
             for team in team_data.keys():
+                if team not in teams_in_season:
+                    continue
                 # Get last entry up to this matchday
                 entries = [entry for entry in team_data[team] if entry['matchday'] <= matchday]
                 if entries:
